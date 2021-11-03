@@ -16,7 +16,7 @@ io.on('connection', function (socket) {
 
     console.log('api-free.deepl.com翻訳 start')
     const params = new URLSearchParams()
-    params.append('auth_key', 'b855be36-0e90-da8f-0e31-ecc79d74cfa3:fx')
+    params.append('auth_key', 'b8be36-0e90-da8f-0e31-ecc7XXX74cfa3:fx')
     params.append('text', msg)
     params.append('target_lang', 'JA')
     const result = await axios.post(
